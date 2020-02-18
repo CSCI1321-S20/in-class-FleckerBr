@@ -1,0 +1,5 @@
+1. Change int to double
+2. Use isclear instead of maze(nx)(ny), out of bounds also not necessary
+3. Don't check for equalities between double, do absoulute value difference less than 1
+4. Make sure the entity cannot start in a wall "(sx,sy) is not in a wall"
+   by wrapping logic in an if statement
